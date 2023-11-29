@@ -1,0 +1,68 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  background-image: url(images/background.jpg);
+  backdrop-filter: blur(5px);
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100vh;
+  height: fit-content;
+}
+.p1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#wordInput {
+  font-size: 25px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+}
+button {
+  font-size: 25px;
+  border: 2px solid rgb(245, 200, 117);
+  border-radius: 5px;
+  background-color: white;
+  color: orange;
+  padding: 5px;
+  cursor: pointer;
+  width: 40%;
+  align-self: center;
+}
+.p2 {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#description {
+  background-color: #009765;
+  padding: 10px 15px;
+  border: 1px solid #006565;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+}
+.mot {
+  background-color: #fff;
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #006565;
+}
